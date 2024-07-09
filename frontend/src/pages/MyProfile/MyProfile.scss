@@ -1,0 +1,75 @@
+.my-recipes{
+    h1{
+        text-align: left;
+        font-size: 2rem;
+    }
+    h1 span{
+        color: #4167c1;
+        font-size: 1rem;
+        padding-left: 1em;
+    }
+
+    .btn-config {
+        width: 13%;
+        height: 2.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-right: 1em;
+        border: none;
+        border-radius: 7px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-left: 0.5em;
+        background: url('/public/assets/icons/user.png') no-repeat 0.5em center;
+        padding-left: 35px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        background-color: #4167c1;
+    }
+
+    .btn-config a {
+        text-decoration: none;
+        color: #ffe6d0;
+    }
+
+
+    .btn-config:hover {
+        margin-left: 0.5em;
+        background-color: rgba(65, 103, 193, 0.8);
+        transition: 0.2s;
+        box-shadow: 1px 1px 5px rgba(225, 199, 175, 0.5);
+    }
+    
+
+    .btn-favorites {
+        width: 10%;
+        height: 2.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-right: 1em;
+        border: none;
+        border-radius: 7px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-left: 0.5em;
+        background: url('/assets/icons/fav.png') no-repeat 0.5em center;
+        padding-left: 35px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        background-color: #4167c1;
+    }
+
+    .btn-favorites a {
+        text-decoration: none;
+        color: #ffe6d0;
+    }
+
+
+    .btn-favorites:hover {
+        margin-left: 0.5em;
+        background-color: rgba(65, 103, 193, 0.8);
+        transition: 0.2s;
+        box-shadow: 1px 1px 5px rgba(225, 199, 175, 0.5);
+    }
+
+}

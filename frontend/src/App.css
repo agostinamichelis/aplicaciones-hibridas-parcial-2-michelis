@@ -1,0 +1,72 @@
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.read-the-docs {
+  color: #888;
+}
+
+* {
+  margin: auto;
+  box-sizing: border-box;
+  font-family: 'Mulish';
+}
+
+body {
+  background-color: #fff7f0;
+  color: #514035;
+  position: relative;
+  min-height: 100vh;
+}
+
+main {
+  width: 70%;
+  min-height: 73.5vh;
+}
+
+
+
+
+.floating-btn-container {
+  position: fixed;
+  bottom: 10em;
+  right: 3em;
+  z-index: 1000; 
+}
+
+.btn-agregar-receta {
+  height: 2.5em;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 0.5em;
+  background: url('/assets/icons/add.png') no-repeat 0.5em center;
+  padding-left: 35px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #4167c1;
+}
+
+.btn-agregar-receta a{
+text-decoration: none;
+  color: #ffe6d0;
+  font-size: 1rem;
+}
+
+.btn-agregar-receta:hover {
+  background-color: #0056b3; 
+  transition: 0.2s;
+}

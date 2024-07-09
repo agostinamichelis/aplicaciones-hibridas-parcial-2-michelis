@@ -1,0 +1,55 @@
+div {
+    h2{
+        text-align: center;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        font-size: 2rem;
+    }
+    h2 span{
+        font-family: 'Great Vibes', sans-serif;
+        color: #4167c1;
+        font-size: 3rem;
+    }
+   form{
+        background-color: #4167c1;
+        text-align: center;
+        padding: 2em 0em;
+       width: 80%;
+       border-radius: 0.5em;
+    }
+    input {
+        width: 80%;
+        height: 2.5em;
+        padding-left: 1em;
+        border: none;
+        border-radius: 7px;
+        font-size: 1rem;
+        opacity: 0.6;
+        color: #996948;
+    }
+
+    input:focus {
+        outline: none;
+        opacity: 1;
+        transition: 0.2s;
+    }
+
+    form button {
+        width: 8%;
+        height: 2.5em;
+        margin-left: 1em;
+        border: none;
+        border-radius: 7px;
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: #ffe6d0;
+        color: #4167c1;
+    }
+
+    form button:hover {
+        background-color: rgba(255, 230, 208, 0.5);
+        color: #ffe6d0;;
+        transition: 0.2s;
+    }
+
+}

@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: 6vh;
+    background-color: #4167c1;
+
+.logo img {
+    max-height: 10%;
+    margin: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}
+
+li {
+    width: 10em;
+    margin: 0;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #ffe6d0;
+}
+a:hover, a.active {
+    background-color: #ffe6d0;
+    border-radius: 0.2em;
+    padding: 0em 0.7em 0.05em 0.7em;
+    color: #4167c1;
+    transition: 0.2s;
+}
+
+}

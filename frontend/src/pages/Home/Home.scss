@@ -1,0 +1,85 @@
+.home {
+
+    .header-landing {
+        display: flex;
+        margin-top: 4em;
+    }
+
+    .banner {
+        display: block;
+        width: 100%;
+    }
+
+    .logo-landing {
+        text-align: center;
+    }
+
+    .logo-landing img {
+        width: 60%;
+    }
+
+    .header-landing-column {
+        width: 100%;
+    }
+
+    .header-landing-column h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-landing-column p {
+        font-size: 1.1rem;
+    }
+
+    .home-header {
+        margin-top: 0;
+    }
+
+
+
+
+    .pastillas-login {
+        display: flex;
+        gap: 1em;
+        margin-top: 5em;
+    }
+
+    .pastillas-login div {
+        background-color: #ffe6d0;
+        width: 31%;
+        border-radius: 0.5em;
+    }
+
+    .pastillas-login div img {
+        width: 100%;
+        border-radius: 0.5em;
+    }
+
+    .pastillas-login h2 {
+        font-size: 1rem;
+        text-align: center;
+        padding-bottom: 1em;
+        padding-top: 0.5em;
+    }
+
+    .notebook {
+        margin-top: 3em;
+        text-align: center;
+    }
+
+    .notebook img {
+        width: 60%;
+    }
+
+    .notebook button {
+        display: block;
+        background-color: #4167c1;
+        border: none;
+        outline: none;
+        font-size: 1.3rem;
+        padding: 0.3em 1em;
+        border-radius: 5px;
+        color: #ffe6d0;
+    }
+
+
+}

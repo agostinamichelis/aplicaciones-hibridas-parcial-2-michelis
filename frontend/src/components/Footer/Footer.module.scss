@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    background-color: #ffe6d0;
+    padding: 1em 0em;
+    margin-top: 3em;
+    width: 100%;
+    
+    img {
+        width: 7%;
+    }
+
+    ul li {
+        list-style: none;
+        margin-top: 0.5em;
+        font-size: 0.8rem;
+    }
+
+    ul li:first-child {
+        font-weight: 800;
+    }
+}

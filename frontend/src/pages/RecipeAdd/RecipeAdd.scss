@@ -1,0 +1,235 @@
+.recipe-add-container {
+    form {
+        background-color: #ffe6d0;
+        padding-top: 2em;
+        padding-bottom: 0em;
+    }
+
+    label {
+        font-weight: 600;
+        width: 10%;
+    }
+
+
+
+
+    .add-nombre,
+    .add-descripcion {
+        display: flex;
+    }
+
+    .add-nombre input {
+        width: 80%;
+    }
+
+    .add-descripcion {
+        margin-top: 1.7em;
+    }
+
+    .add-descripcion textarea {
+        width: 80%;
+        height: 7vh;
+        resize: none;
+        border: none;
+        padding-left: 1em;
+        padding-top: 0.5em;
+        border-radius: 7px;
+        font-size: 1rem;
+        opacity: 0.6;
+        color: #996948;
+    }
+
+
+
+
+    .add-ingredientes {
+        margin-top: 1.7em;
+        background-color: #fff7f0;
+        padding-top: 2em;
+    }
+
+    .contenedor-add-ingredientes {
+        background-color: #ffe6d0;
+        margin-top: 1em;
+    }
+
+    .add-ingrediente {
+        display: flex;
+        width: 80%;
+        padding-top: 2em;
+    }
+    .add-ingrediente {
+        padding-bottom: 1em;
+    }
+
+    .add-ingredientes input:first-of-type {
+        width: 10%;
+        margin: 0;
+        margin-right: 1em;
+    }
+
+    .add-ingredientes input:last-of-type {
+        width: 100%;
+        margin: 0;
+        margin-right: 1em;
+    }
+
+    .add-ingredientes select {
+        border: none;
+        color: #4167c1;
+        width: fit-content;
+        margin: 0;
+        margin-right: 1em;
+        padding-left: 0.5em;
+        border-radius: 7px;
+        font-size: 1rem;
+        opacity: 0.6;
+    }
+
+    .btn-ingrediente{
+        background-color: #fff7f0;
+        margin: 0;
+    }
+    .btn-ingrediente button{
+        margin-right: 49em;
+    }
+
+
+
+
+    .add-pasos {
+        background-color: #fff7f0;
+        padding-bottom: 3em;
+        padding-top: 2em;
+    }
+
+    .add-pasos div {
+        background-color: #ffe6d0;
+        display: flex;
+        padding: 2em 0em;
+        cursor: grab;
+        margin-top: 1em;
+    }
+
+    .add-pasos div:active {
+        cursor: grabbing;
+    }
+
+    .add-pasos div button {
+        width: 15%;
+    }
+    .add-pasos div button:disabled {
+        background-color: rgba(196, 164, 136, 0.8);
+        cursor: not-allowed;
+    }
+
+    .add-pasos div input {
+        width: 60%;
+    }
+
+    .add-pasos .step-number {
+        font-weight: 500;
+        border-radius: 0.3em;
+        margin-right: 1em;
+        background-color: #fad7b8;
+        width: 5%;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+.add-pasos-btn{
+    margin-right: 49em;
+}
+
+
+
+
+
+
+.label-ingredientes, .label-pasos{
+    font-size: 1.1rem;
+}
+
+
+
+
+
+    .tiempo-porciones {
+        display: flex;
+        margin-bottom: 2em;
+        margin-top: 1.7em;
+    }
+
+    .tiempo-porciones input {
+        width: 20%;
+    }
+    .tiempo-porciones label {
+        margin-right: 1em;
+    }
+
+    .add-tiempo,
+    .add-porciones {
+        width: 50%;
+    }
+    .add-tiempo p:first-of-type{
+        margin-right: 1em;
+    }
+    .add-tiempo p{
+        display: inline;
+        margin-left: 0.3em;
+    }
+
+
+
+
+
+    .btn-add{
+        background-color: #fff7f0;
+        padding-top: 2em;
+        margin: 0;
+    }
+    .btn-add button{
+        width: 60%;
+        background-color: #4167c1;
+        color: #ffe6d0;
+    }
+    .btn-add button:hover{
+        background-color: rgba(65, 103, 193, 0.8);
+        color: #ffe6d0;
+        transition: 0.2s;
+        box-shadow: 1px 1px 5px rgba(225, 199, 175, 0.5);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    button {
+        width: 20%;
+        height: 2.5em;
+        border: none;
+        border-radius: 7px;
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: rgb(244, 207, 175);
+        color: #996948;
+    }
+
+
+    button:hover {
+        background-color: rgba(224, 185, 151, 0.8);
+        transition: 0.2s;
+        box-shadow: 1px 1px 5px rgba(225, 199, 175, 0.5);
+        color: #996948;
+    }
+
+
+
+}

@@ -1,0 +1,122 @@
+.section-cards {
+    margin-top: 2em;
+
+    .contenedor-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2em;
+        list-style: none;
+        margin: auto;
+        padding: 2em;
+        padding-top: 0.5em;
+    }
+
+    .card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 16px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    .card ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .card ul li {
+        margin-bottom: 8px;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        color: #b38f77;
+        width: fit-content;
+        margin: 0;
+    }
+
+    h4{
+        font-size: 1.2rem;
+        padding-bottom: 0.5em;
+    }
+    .ingredients {
+        background: url('/assets/icons/ingredients.png') no-repeat center left;
+        padding-left: 35px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .portions {
+        background: url('/assets/icons/portions.png') no-repeat center left;
+        padding-left: 35px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .cook{
+        background: url('/assets/icons/chef.png') no-repeat center left;
+        padding-left: 35px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-style: italic;
+        color: #4167c1;
+    }
+
+    .btn-cocinar {
+        margin-right: 0;
+        text-align: right;
+    }
+
+    .btn-cocinar button {
+        padding: 0.7em 1em;
+        border: none;
+        background-color: #ffe6d0;
+        border-radius: 0.5em;
+        cursor: pointer;
+    }
+
+    .btn-cocinar button a {
+        font-weight: 600;
+        font-size: 1rem;
+        color: #4167c1;
+        text-decoration: none;
+    }
+
+    .btn-cocinar button a:hover{
+        color: #e1c7af;
+    }
+    .btn-cocinar button:hover {
+        background-color: #4167c1;
+        transition: 0.3s;
+    }
+
+    .btn-favs-comments{
+        display: flex;
+    }
+    .favs-comments{
+        display: flex;
+        margin: 0;
+        width: 30%;
+        color: #4167c1;
+        font-weight: 500;
+    }
+    .favs-comments p:first-child{
+        background: url('/assets/icons/favs.png') no-repeat center left;
+    padding-left: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    }
+    .favs-comments p:last-child{
+        background: url('/assets/icons/comments.png') no-repeat center left;
+    padding-left: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: right;
+    }
+}

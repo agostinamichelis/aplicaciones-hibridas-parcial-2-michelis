@@ -1,0 +1,49 @@
+.config {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+
+
+    label{
+        display: block;
+        margin-top: 1em;
+        padding-bottom: 0.5em;
+    }
+    input{
+        width: 100%;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        margin-top: 1em;
+    }
+    button {
+        width: 55%;
+        height: 2.5em;
+        border: none;
+        border-radius: 7px;
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: #4167c1;
+        color: #ffe6d0;
+        margin-top: 2em;
+    }
+    button:hover {
+        background-color: rgba(65, 103, 193, 0.8);
+        transition: 0.2s;
+        box-shadow: 1px 1px 5px rgba(225, 199, 175, 0.5);
+    }
+    .new-usuario, .new-password{
+        background-color: #ffe6d0;
+    }
+    .new-email{
+        background-color: #ffecdc;
+    }
+    .new-usuario, .new-email, .new-password{
+        padding: 2em;
+        border-radius: 7px;
+        margin: 0;
+        width: 100%;
+    }
+}

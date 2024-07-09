@@ -1,0 +1,295 @@
+.card-detalle-contenedor {
+
+    padding-top: 5em;
+    background-color: fff0e2;
+
+    .header-card-flex {
+        display: flex;
+        align-items: flex-start;
+        margin: 0;
+        margin-top: 2em;
+    }
+
+    .card-detalle h1 {
+        font-size: 2.2rem;
+        color: #4167c1;
+        background-color: #fff0e2;
+        padding: 0.2em 0.7em;
+        box-shadow: 2px 2px 5px rgba(81, 64, 53, 0.1);
+        border-radius: 0.2em;
+    }
+
+
+    .card-titulares {
+        margin-left: 0em;
+        width: 60%;
+        padding: 1em;
+    }
+
+    .card-titulares p {
+        padding-top: 1em;
+    }
+
+
+
+    /* INFO */
+    .card-info-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        margin-top: 0;
+    }
+
+    /* INFO -> ICONS*/
+    .card-icons {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .card-icons .favorites {
+        background: url('/assets/icons/favs.png') no-repeat center left;
+        padding-left: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .card-icons .comments {
+        background: url('/assets/icons/comments.png') no-repeat center left;
+        padding-left: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .card-icons .cook {
+        background: url('/assets/icons/chef.png') no-repeat center left;
+        padding-left: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .card-icons .date {
+        background: url('/assets/icons/date.png') no-repeat center left;
+        padding-left: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+
+
+
+    .card-img {
+        min-width: 40vw;
+        width: 100%;
+        border-radius: 0.8em;
+    }
+
+
+    /* INFO -> INGREDIENTS*/
+    .card-ingredientes {
+        margin: 0em;
+        background-color: #fff0e2;
+        box-shadow: 2px 2px 5px rgba(81, 64, 53, 0.1);
+        border-radius: 0.5em;
+        padding: 2em;
+        margin-top: 1em;
+    }
+
+    .card-ingredientes ul li {
+        padding-left: 0.3em;
+        margin-top: 0.5em;
+        list-style: none;
+    }
+
+    .card-ingredientes ul li span {
+        font-weight: 500;
+        background-color: #4167c1;
+        color: #ffe6d0;
+        padding: 0.1em 0.5em;
+        border-radius: 0.3em;
+    }
+
+    .card-ingredientes h2 {
+        background: url('/assets/icons/ingredients.png') no-repeat center left;
+        padding-left: 35px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-align: left;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+
+    /* INFO -> PORCIONES TIEMPO*/
+    .card-porciones-tiempo {
+        margin-top: 1em;
+        background-color: #fff0e2;
+        box-shadow: 2px 2px 5px rgba(81, 64, 53, 0.1);
+        border-radius: 0.5em;
+        padding: 1em;
+        padding: 2em;
+    }
+
+    .card-porciones-tiempo h2,
+    .card-porciones-tiempo p {
+        display: inline;
+    }
+
+    .card-porciones-tiempo-1 h2 {
+        background: url('/assets/icons/portions.png') no-repeat center left;
+        padding-left: 35px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-align: left;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    .card-porciones-tiempo-2 h2 {
+        background: url('/assets/icons/time.png') no-repeat center left;
+        padding-left: 35px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-align: left;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+
+    /*INFO -> PASOS*/
+    .card-pasos-flex {
+        margin: 0em;
+        background-color: #fff0e2;
+        box-shadow: 2px 2px 5px rgba(81, 64, 53, 0.1);
+        border-radius: 0.5em;
+        padding: 2em;
+        width: 60%;
+    }
+
+    .card-pasos-flex ol {
+        padding: 0;
+    }
+
+    .card-pasos-flex li {
+        margin-top: 1em;
+        list-style: none;
+        border-bottom: 1px solid #e1c7af;
+        padding: 1em;
+    }
+
+    .card-pasos-flex li span {
+        font-weight: 500;
+        background-color: #4167c1;
+        color: #ffe6d0;
+        padding: 0.1em 0.5em;
+        border-radius: 0.3em;
+        margin-right: 1em;
+    }
+
+    .card-pasos-flex h2 {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-align: left;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+
+
+
+    /*BOTONES*/
+    .card-botones {
+        margin: 0;
+    }
+
+    .card-botones button {
+        width: 40%;
+        height: 2.5em;
+        margin-left: 1em;
+        margin-top: 1em;
+        border: none;
+        border-radius: 7px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .card-botones-editar-eliminar {
+        display: flex;
+        width: 100%;
+    }
+
+    .card-botones-editar-eliminar a {
+        text-decoration: none;
+        color: #ffe6d0;
+    }
+
+    .card-botones-editar-eliminar button:first-of-type {
+        margin-left: 0.5em;
+        background-color: #4167c1;
+    }
+
+    .card-botones-editar-eliminar button:last-of-type {
+        margin-right: 0.5em;
+        background-color: #ffe6d0;
+        color: #4167c1;
+    }
+
+    .card-botones-editar-eliminar button:first-of-type:hover {
+        margin-left: 0.5em;
+        background-color: rgba(65, 103, 193, 0.8);
+        transition: 0.2s;
+        box-shadow: 1px 1px 5px rgba(225, 199, 175, 0.5);
+    }
+
+    .card-botones-editar-eliminar button:last-of-type:hover {
+        margin-right: 0.5em;
+        background-color: rgba(255, 215, 180, 0.8);
+        transition: 0.2s;
+        box-shadow: 1px 1px 5px rgba(225, 199, 175, 0.5);
+    }
+
+
+
+    .card-botones-favoritos {
+        width: 60%;
+        margin: 0;
+        display: flex;
+    }
+
+    .card-botones-favoritos button {
+        width: 25%;
+        text-align: center;
+        height: 2.5em;
+        margin-top: 1em;
+        border: none;
+        border-radius: 7px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .agregar-favoritos {
+        color: #ffe6d0;
+        background: url('/assets/icons/fav.png') no-repeat 0.5em center;
+        padding-left: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        background-color: #4167c1;
+    }
+    
+    .eliminar-favoritos {
+        color: #4167c1;
+        background: url('/assets/icons/un-fav.png') no-repeat 0.5em center;
+        padding-left: 35px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        background-color: #ffe6d0;
+    }
+    .agregar-favoritos:hover {
+        background-color: rgba(65, 103, 193, 0.8);
+    }
+    
+    .eliminar-favoritos:hover {
+        background-color: rgba(255, 215, 180, 0.8);
+    }
+}
