@@ -1,9 +1,14 @@
+---- BARATIE -----
+
+Paso 1:
 Instalar la carpeta dump en MongoDB Compass.
 
-api:
-1) npm i
-2) npm start
+Paso 2: Levantar la DB
+    /api
+        1) npm i
+        2) npm start
 
-frontend:
-1) npm i
-2) npm run dev
+Paso 3: Levantar el front
+    /frontend
+        1) npm i
+        2) npm run dev
