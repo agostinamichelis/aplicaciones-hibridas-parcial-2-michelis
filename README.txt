@@ -1,5 +1,4 @@
 🔥👨‍🍳----- BARATIE -----👨‍🍳🔥
-🍔🍕🥞🥙🌮🥘🥣🥗🍙🍘🍜🍣
 
 🍔 Paso 1:
 Instalar la carpeta dump en MongoDB Compass.
